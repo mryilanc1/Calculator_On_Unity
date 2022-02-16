@@ -8,7 +8,7 @@ public class Calculator : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public int a;
+    public static int  a;
     public int b;
     public int islem;
     public Text text;
@@ -23,13 +23,7 @@ public class Calculator : MonoBehaviour
 
 
     
-    public void sayıGir()
-    {
-
-        text.text +=gameObject.transform.GetChild(0).GetComponent<Text>().text;
-        a = Convert.ToInt32(text.text);
-
-    }
+  
 
 
     public void topla ()

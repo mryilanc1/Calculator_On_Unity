@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 12148692}
   - component: {fileID: 12148691}
   - component: {fileID: 12148690}
+  - component: {fileID: 12148693}
   m_Layer: 5
   m_Name: Button_ (2)
   m_TagString: Untagged
@@ -206,8 +207,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -256,6 +257,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12148688}
   m_CullTransparentMesh: 1
+--- !u!114 &12148693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12148688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &102116862
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +494,7 @@ GameObject:
   - component: {fileID: 202719636}
   - component: {fileID: 202719635}
   - component: {fileID: 202719634}
+  - component: {fileID: 202719637}
   m_Layer: 5
   m_Name: Button_ (7)
   m_TagString: Untagged
@@ -551,8 +566,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -601,6 +616,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202719632}
   m_CullTransparentMesh: 1
+--- !u!114 &202719637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202719632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &208076018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1145,6 +1173,7 @@ GameObject:
   - component: {fileID: 571432000}
   - component: {fileID: 571431999}
   - component: {fileID: 571431998}
+  - component: {fileID: 571432001}
   m_Layer: 5
   m_Name: Button_ (9)
   m_TagString: Untagged
@@ -1216,8 +1245,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -1266,6 +1295,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571431996}
   m_CullTransparentMesh: 1
+--- !u!114 &571432001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571431996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &722536894
 GameObject:
   m_ObjectHideFlags: 0
@@ -1427,6 +1469,7 @@ GameObject:
   - component: {fileID: 932827155}
   - component: {fileID: 932827154}
   - component: {fileID: 932827153}
+  - component: {fileID: 932827156}
   m_Layer: 5
   m_Name: Button_ (4)
   m_TagString: Untagged
@@ -1498,8 +1541,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -1548,6 +1591,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932827151}
   m_CullTransparentMesh: 1
+--- !u!114 &932827156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932827151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1028462940
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1616,7 @@ GameObject:
   - component: {fileID: 1028462944}
   - component: {fileID: 1028462943}
   - component: {fileID: 1028462942}
+  - component: {fileID: 1028462945}
   m_Layer: 5
   m_Name: Button_ (1)
   m_TagString: Untagged
@@ -1631,8 +1688,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -1681,6 +1738,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028462940}
   m_CullTransparentMesh: 1
+--- !u!114 &1028462945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028462940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1028838589
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,6 +2054,7 @@ GameObject:
   - component: {fileID: 1108345730}
   - component: {fileID: 1108345729}
   - component: {fileID: 1108345728}
+  - component: {fileID: 1108345731}
   m_Layer: 5
   m_Name: Button_ (3)
   m_TagString: Untagged
@@ -2055,8 +2126,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -2105,6 +2176,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108345726}
   m_CullTransparentMesh: 1
+--- !u!114 &1108345731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108345726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1179996626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2493,6 +2577,7 @@ GameObject:
   - component: {fileID: 1409421736}
   - component: {fileID: 1409421735}
   - component: {fileID: 1409421734}
+  - component: {fileID: 1409421737}
   m_Layer: 5
   m_Name: Button_ (5)
   m_TagString: Untagged
@@ -2564,8 +2649,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -2614,6 +2699,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409421732}
   m_CullTransparentMesh: 1
+--- !u!114 &1409421737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409421732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1447718138
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,6 +3106,7 @@ GameObject:
   - component: {fileID: 1732118234}
   - component: {fileID: 1732118233}
   - component: {fileID: 1732118232}
+  - component: {fileID: 1732118235}
   m_Layer: 5
   m_Name: Button_ (6)
   m_TagString: Untagged
@@ -3079,8 +3178,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -3129,6 +3228,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732118230}
   m_CullTransparentMesh: 1
+--- !u!114 &1732118235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732118230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1821664179
 GameObject:
   m_ObjectHideFlags: 0
@@ -3158,7 +3270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc9edd424410a204ab3a4e859ff5b9d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  a: 0
   b: 0
   islem: 0
   text: {fileID: 1098070120}
@@ -3226,6 +3337,7 @@ GameObject:
   - component: {fileID: 1965088871}
   - component: {fileID: 1965088870}
   - component: {fileID: 1965088869}
+  - component: {fileID: 1965088872}
   m_Layer: 5
   m_Name: Button_ (8)
   m_TagString: Untagged
@@ -3297,8 +3409,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -3347,6 +3459,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965088867}
   m_CullTransparentMesh: 1
+--- !u!114 &1965088872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965088867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &1978499501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,6 +3484,7 @@ GameObject:
   - component: {fileID: 1978499505}
   - component: {fileID: 1978499504}
   - component: {fileID: 1978499503}
+  - component: {fileID: 1978499506}
   m_Layer: 5
   m_Name: Button_
   m_TagString: Untagged
@@ -3430,8 +3556,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821664180}
-        m_TargetAssemblyTypeName: Calculator, Assembly-CSharp
+      - m_Target: {fileID: 12148693}
+        m_TargetAssemblyTypeName: number, Assembly-CSharp
         m_MethodName: "say\u0131Gir"
         m_Mode: 1
         m_Arguments:
@@ -3480,6 +3606,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978499501}
   m_CullTransparentMesh: 1
+--- !u!114 &1978499506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978499501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc61a4780a7ef2a4e8b3ae435f5445f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 1098070120}
 --- !u!1 &2081644715
 GameObject:
   m_ObjectHideFlags: 0
